@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Angels and Demons",
+        "author": "Dan Brown",
+        "link": "https://example.com/angels-and-demons"
+    },
+    {
+        "id": 2,
+        "title": "The Da Vinci Code",
+        "author": "Dan Brown",
+        "link": "https://example.com/da-vinci-code"
+    },
+    {
+        "id": 3,
+        "title": "Inferno",
+        "author": "Dan Brown",
+        "link": "https://example.com/inferno"
+    },
+    {
+        "id": 4,
+        "title": "The Lost Symbol",
+        "author": "Dan Brown",
+        "link": "https://example.com/lost-symbol"
+    },
+    {
+        "id": 5,
+        "title": "Deception Point",
+        "author": "Dan Brown",
+        "link": "https://example.com/deception-point"
+    }
+]

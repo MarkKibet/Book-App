@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap');
+
+body {
+    background-color: #f8f2f8;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Styling */
+header {
+    overflow: hidden;
+    height: 300px;
+    position: relative;
+    background: rgba(236, 232, 232, 0.904);
+    margin-bottom: 10px;
+}
+
+.navbar-brand img {
+    height: 150px; /* Adjust the size as needed */
+    border-radius: 10px;
+}
+
+/* Slideshow Styling */
+.slideshow-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slideshow {
+    display: flex;
+    width: calc(150px * 38);
+    animation: slide 50s linear infinite;
+}
+
+.slideshow img {
+    width: 150px;
+    height: 200px;
+    margin-right: 0;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-150px * 19)); }
+}
+
+/* Header Content Styling */
+.header-content {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(193, 247, 224, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #6c81df;
+    font-family: 'Lobster', cursive;
+    margin: 0;
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    text-align: center;
+    color: #7ef0bb;
+}
+
+/* Main Container Styling */
+.container {
+    background-color: rgba(223, 230, 231, 0.95);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Book Item Styling */
+.book-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.book-item img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-item h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.book-item p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+/* Input Styling */
+.form-control {
+    max-width: 700px;
+    height: 80px; /* Increase height here */
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    position: relative;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+/* Full-Screen Modal Styling */
+.modal-fullscreen .modal-dialog {
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.modal-fullscreen .modal-content {
+    height: 100%;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-fullscreen .modal-body {
+    overflow-y: auto;
+    height: 100%;
+}
+
+/* Hide the background content when modal is open */
+body.modal-open {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+/* Dropdown Menu Styling */
+.dropdown-menu {
+    max-width: 600px;
+    margin: 0 auto;
+    position: absolute;
+    top: 161%;
+    left: 0;
+    right: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.dropdown-item {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.dropdown-item img {
+    width: 30px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+/* Recommendation Modal (Book Images) */
+#recommendationModal .modal-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 15px;
+}
+
+#recommendationModal .book-item {
+    text-align: center;
+    flex: 1;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#recommendationModal .book-item img {
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#recommendationModal .modal-body p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Book Summary Modal Styling */
+#bookSummaryModal .modal-body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #dbe0f7;
+}
+
+#bookSummaryModal h2 {
+    color: #007bff;
+    font-size: 1.8rem;
+}
+
+#bookSummaryModal p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+#bookSummaryModal .modal-header {
+    background-color: #cadeec;
+    border-bottom: 2px solid #ddd;
+}
+/* Set a custom width for the summary modal */
+#bookSummaryModal .modal-dialog {
+    max-width: 900px; /* Adjust this value as per your desired width */
+    width: 90%; /* Adjust width relative to the viewport */
+    height: 500px;
+}
+
+/* Set a fixed height for the modal if desired */
+#bookSummaryModal .modal-content {
+    height: auto; /* Let the content grow based on content size, but you can fix it as well */
+    padding: 20px; /* Add padding for better spacing inside */
+}
+
+/* Optional: To prevent very small modals */
+#bookSummaryModal .modal-dialog {
+    min-width: 400px; /* This prevents it from getting too small */
+}
+
+
+/* Intro Section Styling */
+.intro {
+    padding: 10px 0;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro h1 {
+    color: #007bff;
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 10px;
+}
+
+/* Button Styling */
+.btn {
+    max-width: 400px;
+    margin: 10px auto;
+    display: block;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+/* Error Text Styling */
+.text-danger {
+    color: #dc3545 !important;
+}
+
+/* Misc Styling */
+.intro {
+    padding: 20px 0;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Hover Effect for Book Items */
+#recommendationContainer .book-item {
+    transition: transform 0.3s;
+}
+
+#recommendationContainer .book-item:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #555;
+}
+
+.blogs-faqs-contacts {
+    margin-top: 40px;
+}
+
+.blogs-faqs-contacts h2 {
+    font-family: 'Lobster', cursive;
+    color: #007bff;
+}
+
+.blogs-faqs-contacts ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.blogs-faqs-contacts ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.blogs-faqs-contacts ul li a {
+    color: #007bff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.blogs-faqs-contacts ul li a:hover {
+    text-decoration: underline;
+}
