@@ -21,21 +21,24 @@
       "title": "The Thursday Murder Club",
       "author": "Richard Osman",
       "genre": "Mystery, Crime Fiction",
-      "coverImage": "/images/images (8).jpeg"
+      "coverImage": "/images/images (8).jpeg",
+      "summary": "The Thursday Murder Club is a charming and clever mystery set in a peaceful retirement village. The story revolves around four residents, Elizabeth, Joyce, Ibrahim, and Ron, who meet every Thursday to investigate unsolved crimes. Their lives take an unexpected turn when a local developer is found dead, and they suddenly find themselves entangled in their first live case. Using their diverse backgrounds and sharp minds, the quartet uncovers clues and navigates the complex web of suspects and motives. As the investigation deepens, they reveal hidden secrets and long-buried truths, all while forming a tight-knit friendship. Richard Osman’s debut novel is not only a gripping whodunit but also a heartwarming tale of camaraderie and the joys and challenges of growing older. The book's wit, charm, and endearing characters make it a delightful read for mystery lovers."
     },
     {
       "id": 4,
       "title": "Then She Was Gone",
       "author": "Lisa Jewell",
       "genre": "Psychological Thriller",
-      "coverImage": "/images/images (9).jpeg"
+      "coverImage": "/images/images (9).jpeg",
+      "summary": "In Then She Was Gone, Lisa Jewell crafts a haunting and suspenseful tale of loss, secrets, and the quest for closure. The story follows Laurel Mack, a mother whose teenage daughter Ellie disappeared a decade ago. Still reeling from the loss, Laurel meets Floyd, a charming man who brings a glimmer of hope back into her life. However, Laurel is stunned when she meets Floyd's young daughter, Poppy, who bears an uncanny resemblance to Ellie. This eerie similarity sets Laurel on a path to uncover the truth about what happened to her daughter. As she delves deeper into Floyd's life and past, she uncovers shocking secrets that lead her closer to the heartbreaking reality of Ellie's fate. Jewell's psychological thriller is a gripping exploration of grief, obsession, and the lengths a mother will go to find her lost child."
     },
     {
       "id": 5,
       "title": "The Alchemist",
       "author": "Paulo Coelho",
       "genre": "Philosophical Fiction",
-      "coverImage": "/images/download (4).jpeg"
+      "coverImage": "/images/download (4).jpeg",
+      "summary": "The Alchemist is a timeless novel that tells the inspirational journey of Santiago, a young Andalusian shepherd. Driven by a recurring dream of finding treasure in the Egyptian pyramids, Santiago sets out on an adventurous quest across the desert. Along the way, he encounters a series of mentors, including a king, an alchemist, and a crystal merchant, each imparting wisdom and guiding him closer to his personal legend. Through trials, love, and self-discovery, Santiago learns profound lessons about the power of dreams, the importance of listening to one’s heart, and the interconnectedness of all life. Paulo Coelho's allegorical tale resonates with readers across the globe, offering a philosophical reflection on the pursuit of one's destiny and the spiritual journey that accompanies it. The novel's lyrical prose and universal themes make it a beacon of hope and enlightenment for all who seek to follow their dreams."
     },
     {
       "id": 6,
@@ -50,56 +53,65 @@
       "title": "Veronika Decides to Die",
       "author": "Paulo Coelho",
       "genre": "Psychological Drama",
-      "coverImage": "/images/download (5).jpeg"
+      "coverImage": "/images/download (5).jpeg",
+      "summary": "Veronika Decides to Die explores the meaning of life and the thin line between sanity and madness. Veronika, a young woman in her twenties, seemingly has everything—a stable job, beauty, and a good social life—but she feels an overwhelming emptiness and decides to end her life. She takes an overdose of sleeping pills but wakes up in a mental institution called Villete. There, she is told she has damaged her heart irreparably and only has a few days to live. As Veronika interacts with other patients, including the wise Mari, the schizophrenic Eduard, and the rebellious Zedka, she begins to see life from a different perspective. Through her journey, she experiences a newfound zest for life and begins to question her beliefs about what it means to be normal. Paulo Coelho’s novel is a profound meditation on living authentically and the societal pressures that often lead individuals to despair. It challenges readers to reflect on their own lives and the ways they might be conforming to societal expectations at the expense of their true desires and happiness."
     },
     {
       "id": 8,
       "title": "The Silent Patient",
       "author": "Alex Michaelides",
       "genre": "Psychological Thriller",
-      "coverImage": "/images/images (7).jpeg"
+      "coverImage": "/images/images (7).jpeg",
+      "summary": "The Silent Patient is a gripping psychological thriller that centers on Alicia Berenson, a famous painter who seemingly has the perfect life with her husband, Gabriel. One evening, Alicia shoots Gabriel five times in the face and then stops speaking entirely. Her silence turns a domestic tragedy into a mystery that captures the public's imagination. Alicia is placed in a psychiatric facility, The Grove, where Theo Faber, a forensic psychotherapist, becomes obsessed with her case. Determined to uncover the truth behind her silence and the murder, Theo delves into Alicia’s life, unearthing her diaries and interviewing people close to her. As he pieces together Alicia’s past, Theo uncovers layers of trauma, deception, and a series of shocking revelations that lead to a stunning conclusion. The novel explores themes of obsession, love, and the devastating effects of unresolved trauma, all while keeping readers on the edge of their seats with its intricate plot and unexpected twists. Alex Michaelides' debut novel is a masterclass in suspense and psychological complexity, making it a standout in the genre."
     },
     {
       "id": 9,
       "title": "Where the Crawdads Sing",
       "author": "Delia Owens",
       "genre": "Mystery, Literary Fiction",
-      "coverImage": "images/owens.jpeg"
+      "coverImage": "images/owens.jpeg",
+      "summary": "Where the Crawdads Sing is a captivating blend of mystery and coming-of-age story set in the marshes of North Carolina. The novel follows Kya Clark, known as the “Marsh Girl,” who grows up isolated in the wild after being abandoned by her family. Despite her loneliness, Kya finds solace in the natural world around her, becoming an expert in the flora and fauna of the marsh. Her life takes a turn when she becomes entangled in the lives of two young men from town, Tate and Chase, each relationship bringing its own set of complications. When Chase is found dead, Kya becomes the prime suspect in his murder. The narrative alternates between Kya’s tumultuous childhood and the investigation into Chase’s death, weaving a tale of survival, resilience, and the redemptive power of nature. Delia Owens’ lyrical prose brings the marsh to life, creating an immersive backdrop for Kya’s journey of self-discovery and the search for belonging. The novel’s intricate plot and richly drawn characters make it a poignant and suspenseful read that explores themes of abandonment, prejudice, and the quest for independence."
+
     },
     {
       "id": 10,
       "title": "Becoming",
       "author": "Michelle Obama",
       "genre": "Biography, Memoir",
-      "coverImage": "images/becoming.jpeg"
+      "coverImage": "images/becoming.jpeg",
+        "summary": "Becoming is an intimate and inspiring memoir by former First Lady Michelle Obama. The book chronicles her life from her childhood on the South Side of Chicago to her years as an executive balancing motherhood and work, and finally her time spent at the world's most famous address. Michelle Obama shares her experiences growing up in a close-knit family, her educational journey, and the challenges she faced as a black woman in predominantly white academic and professional environments. She also provides a candid look at her marriage to Barack Obama, their life together in the political spotlight, and the profound impact of their roles in the White House. With grace, humor, and honesty, Michelle Obama reflects on the defining moments that shaped her, offering readers a compelling narrative of perseverance, resilience, and the power of authenticity. Becoming is not just a memoir, but a call to action, encouraging readers to find their own voice and pursue their own journey of becoming. The book's message of hope and empowerment resonates deeply, making it a powerful and transformative read."
     },
     {
       "id": 11,
       "title": "The Republic",
       "author": "Plato",
       "genre": "Philosophy",
-      "coverImage": "images/images (2).jpeg"
+      "coverImage": "images/images (2).jpeg",
+        "summary": "The Republic is one of Plato’s most influential works, presenting his vision of a just society and the ideal state. Written as a dialogue between Socrates and various Athenians, the text explores profound questions about justice, governance, and the nature of reality. Plato introduces the concept of the philosopher-king, a ruler who possesses both wisdom and virtue, and outlines his theory of the tripartite soul, which divides the human psyche into reason, spirit, and appetite. He also famously describes the Allegory of the Cave, a metaphor for human ignorance and the philosopher’s journey to enlightenment. The Republic delves into the structure of the ideal city-state, advocating for a class system based on merit and the importance of education in achieving a just society. While Plato’s ideas have sparked debate and criticism over the centuries, his work remains a foundational text in Western philosophy, offering timeless insights into ethics, politics, and the human condition. The Republic challenges readers to reflect on the nature of justice and the role of individuals and institutions in creating a fair and equitable society."
     },
     {
       "id": 12,
       "title": "State of Fear",
       "author": "Michael Crichton",
       "genre": "Science Fiction, Techno-Thriller",
-      "coverImage": "images/images (11).jpeg"
+      "coverImage": "images/images (11).jpeg",
+        "summary": "State of Fear by Michael Crichton is a fast-paced techno-thriller that blends scientific intrigue with action-packed adventure. The novel centers on a global conspiracy orchestrated by eco-terrorists aiming to create natural disasters to perpetuate a state of fear among the public and influence environmental policy. The story follows Peter Evans, a lawyer working for an environmental organization, who becomes entangled in the plot after being approached by billionaire philanthropist George Morton. As Evans, Morton, and a team of scientists and experts race against time to prevent the catastrophic events, they uncover a web of deceit and manipulation orchestrated by powerful interests. Crichton’s novel is notable for its controversial stance on climate change, questioning the motivations behind environmental activism and the role of science in public policy. Through detailed scientific data and gripping narrative, State of Fear challenges readers to think critically about the information presented to them and the impact of fear on decision-making. The novel’s blend of fact and fiction creates a thought-provoking and suspenseful read, characteristic of Crichton’s work."
     },
     {
       "id": 13,
       "title": "Timeline",
       "author": "Michael Crichton",
       "genre": "Science Fiction, Time travel, Adventure, Historical Fiction",
-      "coverImage": "images/download (3).jpeg"
+      "coverImage": "images/download (3).jpeg",
+        "summary": "Timeline is a thrilling adventure that combines elements of science fiction, historical fiction, and time travel. The novel follows a group of historians and archaeologists who are sent back in time to medieval France to rescue their professor, who has been trapped in the past. Using a quantum technology developed by a high-tech corporation, the team navigates the dangers and complexities of the 14th century, including the political intrigue, warfare, and daily life of the time. As they search for their professor, they encounter knights, castles, and battles, while struggling to understand the mechanics of time travel and avoid altering history. Crichton’s meticulous research and attention to detail bring the medieval period to life, creating a rich and immersive backdrop for the story. Timeline explores themes of technology, history, and the ethical implications of tampering with the past. The novel’s fast-paced plot, well-drawn characters, and blend of historical and scientific elements make it a captivating read that transports readers across centuries."
     },
     {
       "id": 14,
       "title": "Jurassic Park",
       "author": "Michael Crichton",
       "genre": "Science Fiction, Adventure, Historical Fiction",
-      "coverImage": "images/download.png"
+      "coverImage": "images/download.png",
+        "summary": "Jurassic Park is a thrilling science fiction novel that explores the intersection of advanced genetics, corporate greed, and the primal power of nature. The story begins with billionaire entrepreneur John Hammond, who has created an island theme park populated by genetically engineered dinosaurs. Using DNA extracted from prehistoric mosquitoes preserved in amber, Hammond’s scientists at InGen, a genetic engineering company, have brought extinct species back to life. As the park nears completion, Hammond invites a group of experts—paleontologist Dr. Alan Grant, paleobotanist Dr. Ellie Sattler, chaos theorist Dr. Ian Malcolm, and his own grandchildren—to tour the island and provide their endorsement. However, things quickly go awry when the park’s computer systems fail, allowing the dinosaurs to roam free. The once awe-inspiring creatures turn deadly, and the visitors must fight for survival against the rampaging predators. The novel delves into themes of human hubris, ethical boundaries in science, and the unpredictable consequences of tampering with nature. Michael Crichton masterfully combines scientific detail with edge-of-your-seat suspense, creating a cautionary tale that questions the limits of human innovation and the power of the natural world."
     },
     {
       "id": 15,
