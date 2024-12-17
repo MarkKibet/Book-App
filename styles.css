@@ -1,26 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap');
 
 body {
-    background-color: #f8f2f8;
-    color: #333;
+    background-color: #121212;
+    color: #e0e0e0;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-/* Header Styling */
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #1f1f1f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: #80ed99;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand img {
+    height: 50px;
+    margin-right: 10px;
+}
+
 header {
     overflow: hidden;
     height: 300px;
     position: relative;
-    background: rgba(236, 232, 232, 0.904);
+    background: linear-gradient(135deg, #1f1f1f, #2b2b2b);
     margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.navbar-brand img {
-    height: 150px; /* Adjust the size as needed */
-    border-radius: 10px;
-}
-
-/* Slideshow Styling */
 .slideshow-container {
     position: absolute;
     top: 0;
@@ -40,6 +58,7 @@ header {
     width: 150px;
     height: 200px;
     margin-right: 0;
+    border-radius: 10px;
 }
 
 @keyframes slide {
@@ -47,223 +66,24 @@ header {
     100% { transform: translateX(calc(-150px * 19)); }
 }
 
-/* Header Content Styling */
-.header-content {
-    position: relative;
-    z-index: 1;
-    background-color: rgba(193, 247, 224, 0.8);
-    padding: 10px;
-    border-radius: 10px;
-    width: 100%;
-    text-align: center;
-}
-
-h1, h2 {
-    color: #6c81df;
-    font-family: 'Lobster', cursive;
-    margin: 0;
-}
-
-.navbar-brand {
-    font-family: 'Lobster', cursive;
-    font-size: 2rem;
-    text-align: center;
-    color: #7ef0bb;
-}
-
-
-/* Main Container Styling */
-.container {
-    background-color: rgba(223, 230, 231, 0.95);
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Book Item Styling */
-.book-item {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.book-item img {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.book-item h3 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.book-item p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-}
-
-/* Input Styling */
-.form-control {
-    max-width: 700px;
-    height: 80px; /* Increase height here */
-    margin: 0 auto;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    position: relative;
-    font-size: 1.2rem;
-    padding: 10px;
-}
-
-/* Full-Screen Modal Styling */
-.modal-fullscreen .modal-dialog {
-    max-width: 100%;
-    height: 100%;
-    margin: 0;
-}
-
-.modal-fullscreen .modal-content {
-    height: 100%;
-    border-radius: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.modal-fullscreen .modal-body {
-    overflow-y: auto;
-    height: 100%;
-}
-
-/* Hide the background content when modal is open */
-body.modal-open {
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-}
-
-/* Dropdown Menu Styling */
-.dropdown-menu {
-    max-width: 600px;
-    margin: 0 auto;
-    position: absolute;
-    top: 161%;
-    left: 0;
-    right: 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-}
-
-.dropdown-item {
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    color: #007bff;
-    cursor: pointer;
-}
-
-.dropdown-item img {
-    width: 30px;
-    height: 40px;
-    margin-right: 10px;
-    border-radius: 5px;
-}
-
-.dropdown-item:hover {
-    background-color: #f1f1f1;
-}
-
-/* Recommendation Modal (Book Images) */
-#recommendationModal .modal-body {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
-    gap: 15px;
-}
-
-#recommendationModal .book-item {
-    text-align: center;
-    flex: 1;
-    max-width: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#recommendationModal .book-item img {
-    width: auto;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#recommendationModal .modal-body p {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-/* Book Summary Modal Styling */
-#bookSummaryModal .modal-body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
-    background-color: #dbe0f7;
-}
-
-#bookSummaryModal h2 {
-    color: #007bff;
-    font-size: 1.8rem;
-}
-
-#bookSummaryModal p {
-    font-size: 1.1rem;
-    color: #333;
-}
-
-#bookSummaryModal .modal-header {
-    background-color: #cadeec;
-    border-bottom: 2px solid #ddd;
-}
-/* Set a custom width for the summary modal */
-#bookSummaryModal .modal-dialog {
-    max-width: 900px; /* Adjust this value as per your desired width */
-    width: 90%; /* Adjust width relative to the viewport */
-    height: 500px;
-}
-
-/* Set a fixed height for the modal if desired */
-#bookSummaryModal .modal-content {
-    height: auto; /* Let the content grow based on content size, but you can fix it as well */
-    padding: 20px; /* Add padding for better spacing inside */
-}
-
-/* Optional: To prevent very small modals */
-#bookSummaryModal .modal-dialog {
-    min-width: 400px; /* This prevents it from getting too small */
-}
-
-
-/* Intro Section Styling */
 .intro {
-    padding: 10px 0;
-    background-color: #f9f9f9;
+    padding: 20px 0;
+    background-color: #2d2d2d;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 0 10%;
 }
 
 .intro h1 {
-    color: #007bff;
+    color: #80ed99;
     font-family: 'Lobster', cursive;
     font-size: 3rem;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .intro p {
-    color: #333;
+    color: #e0e0e0;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
     line-height: 1.6;
@@ -271,71 +91,241 @@ body.modal-open {
     margin: 0 auto 10px;
 }
 
-/* Button Styling */
-.btn {
-    max-width: 400px;
-    margin: 10px auto;
-    display: block;
-    background-color: #007bff;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    border-radius: 20px;
-    font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
-    transition: background-color 0.3s;
+.main-container {
+    background-color: rgba(40, 40, 40, 0.95);
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    width: 100%;
 }
-
-.btn:hover {
-    background-color: #0056b3;
-}
-
-/* Navbar Styling */
-.navbar {
+.search-container {
+    position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
-/* Error Text Styling */
-.text-danger {
-    color: #dc3545 !important;
+.search-input {
+    padding-right: 40px; /* Space for search icon */
+    transition: width 0.3s ease, padding 0.3s ease;
+    width: 0;
+    visibility: hidden;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #e0e0e0;
+    border: 2px solid #80ed99;
 }
 
-/* Misc Styling */
-.intro {
-    padding: 20px 0;
+.search-container.active .search-input {
+    width: 400px; /* Adjust width */
+    visibility: visible;
+    padding: 5px 40px 5px 10px; /* Padding for icon */
 }
 
-h2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+.search-button {
+    position: absolute;
+    right: 440px; /* Inside input box */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Center vertically */
+    background-color: transparent;
+    border: none;
+    color: #80ed99;
+    font-size: 1.5rem;
+    cursor: pointer;
+    visibility: visible;
 }
 
-/* Hover Effect for Book Items */
-#recommendationContainer .book-item {
-    transition: transform 0.3s;
+#addBookButton {
+    background-color: #80ed99;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px; /* Margin above button */
 }
 
-#recommendationContainer .book-item:hover {
-    transform: scale(1.05);
+#addBookButton:hover {
+    background-color: #57cc99;
+    transform: scale(1.1);
+}
+/* Ensure the modal body is scrollable */
+#addBookModal .modal-body {
+    max-height: 70vh; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
 }
 
-/* Footer Styling */
+/* Additional styles for better appearance */
+#addBookModal .form-control,
+#addBookModal .form-group {
+    margin-bottom: 15px;
+}
+
+#addBookModal .form-control {
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 2px solid #80ed99;
+}
+
+#addBookModal .btn-primary {
+    background-color: #80ed99;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#addBookModal .btn-primary:hover {
+    background-color: #57cc99;
+    transform: scale(1.1);
+}
+
+
+.book-item {
+    text-align: center;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.book-item:hover {
+    transform: translateY(-10px);
+}
+
+.book-item img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.book-item h3,
+.book-item p {
+    font-family: 'Roboto', sans-serif;
+    color: #80ed99; /* Light green color */
+}
+
+.modal-content {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+}
+
+.modal-header,
+.modal-footer {
+    border: none;
+}
+/* Full-Page Summary Modal */
+#bookSummaryModal .modal-dialog {
+    max-width: 100%;
+    margin: 0;
+    height: 100%;
+}
+
+#bookSummaryModal .modal-content {
+    height: 100%;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+}
+
+#bookSummaryModal .modal-header, 
+#bookSummaryModal .modal-footer {
+    background-color: #383c44;
+    border: none;
+    padding: 20px;
+    text-align: center;
+}
+
+#bookSummaryModal .modal-header h5 {
+    color: #80ed99;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    margin: 0;
+}
+
+#bookSummaryModal .modal-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    text-align: left;
+}
+
+#bookSummaryModal .modal-body img {
+    width: 150px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: block;
+    margin: 0 auto 20px; /* Center the image and add margin at the bottom */
+}
+
+#bookSummaryModal .modal-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#bookSummaryModal .modal-footer button {
+    background-color: #80ed99;
+    border: none;
+    color: #121212;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#bookSummaryModal .modal-footer button:hover {
+    background-color: #57cc99;
+    transform: scale(1.1);
+}
+
+/* Overlay Effect */
+.modal-backdrop.show {
+    opacity: 0.9; /* Darken the backdrop */
+    background-color: #000; /* Ensure the background color is black */
+}
+
+
+
+.btn-secondary,
+.btn-primary {
+    background-color: #80ed99;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover,
+.btn-primary:hover {
+    background-color: #57cc99;
+}
+
 footer {
     margin-top: 40px;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
-    color: #555;
-}
-
-.blogs-faqs-contacts {
-    margin-top: 40px;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-top: 1px solid #3c3c3c;
 }
 
 .blogs-faqs-contacts h2 {
     font-family: 'Lobster', cursive;
-    color: #007bff;
+    color: #80ed99;
 }
 
 .blogs-faqs-contacts ul {
@@ -349,12 +339,185 @@ footer {
 }
 
 .blogs-faqs-contacts ul li a {
-    color: #007bff;
+    color: #80ed99;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 .blogs-faqs-contacts ul li a:hover {
+    color: #57cc99;
     text-decoration: underline;
 }
+
+.dropdown-item {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: #80ed99;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Dropdown Menu Styling */
+.dropdown-menu {
+    max-width: 600px;
+    margin: 0 auto;
+    position: absolute;
+    top: 137%;
+    left: 0;
+    right: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    background-color: #2d2d2d;
+    max-height: 300px; /* Set maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #80ed99 #2d2d2d; /* For Firefox */
+}
+
+.dropdown-menu::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+    background-color: #80ed99; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+
+.dropdown-menu::-webkit-scrollbar-track {
+    background: #2d2d2d; /* Color of the scrollbar track */
+}
+
+.dropdown-item img {
+    width: 30px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.dropdown-item:hover {
+    background-color: #3c3c3c;
+}
+
+
+/* Custom Overlay Effect */
+.custom-overlay {
+    display: none; /* Initially hidden */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Darken with opacity */
+    z-index: 1040; /* Ensure it's behind the summary modal but above other content */
+}
+
+#recommendationModal .modal-body {
+    display: block; /* Ensure block display for the text and book list */
+    padding: 20px; /* Add some padding for better spacing */
+    max-height: 400px; /* Set maximum height for the modal body */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.book-list {
+    display: flex; /* Use flexbox for horizontal alignment */
+    flex-wrap: wrap; /* Allow wrapping to a new line if necessary */
+    gap: 15px; /* Add gap between items */
+    justify-content: center; /* Center align items */
+}
+
+/* Full-Page Fixed Modal */
+#recommendationModal .modal-dialog {
+    max-width: 100%;
+    margin: 0;
+    height: 100%;
+}
+
+#recommendationModal .modal-content {
+    height: 100%;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #282c34, #383c44);
+    color: #e0e0e0;
+}
+
+#recommendationModal .modal-header, 
+#recommendationModal .modal-footer {
+    background-color: #383c44;
+    border: none;
+    padding: 20px;
+    text-align: center;
+}
+
+#recommendationModal .modal-header h5,
+#recommendationModal .modal-footer button {
+    color: #80ed99;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#recommendationModal .modal-footer button {
+    background-color: #80ed99;
+    border: none;
+    color: #121212;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#recommendationModal .modal-footer button:hover {
+    background-color: #57cc99;
+    transform: scale(1.1);
+}
+
+#recommendationModal .modal-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: #282c34;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Reduced gap between items */
+    justify-content: space-around; /* Ensure even spacing */
+}
+
+#recommendationModal .book-item {
+    text-align: center;
+    margin: 10px;
+    width: calc(25% - 20px); /* Adjusted width for 4 items per line */
+    background-color: #2e323a;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#recommendationModal .book-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+#recommendationModal .book-item img {
+    width: 120px; /* Increased width */
+    height: 180px; /* Increased height */
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#recommendationModal .book-item h5,
+#recommendationModal .book-item p {
+    font-size: 1rem; /* Adjusted font size */
+    color: #80ed99;
+}
+
+
+

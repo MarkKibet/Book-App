@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,12 +10,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
-        <a class="navbar-brand" href="#"> 
-            <img src="images/website-logo.jpg" alt="BookSeeker Logo" style="height: 150px;"> 
-        </a> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="images/website-logo.jpg" alt="BookSeeker Logo" style="height: 50px;">
+            <span>BookSeeker</span>
+        </a>
     </nav>
 
     <header id="header">
@@ -66,32 +71,48 @@
         <p>Finished your last read and craving another thrilling story? Look no further! <strong>BookSeeker</strong> is your ultimate guide to discovering the next captivating tale. From heart-pounding thrillers to enchanting fantasies, we are here to help you transition smoothly into your next literary adventure.</p>
     </section>
 
-    <div class="container mt-5">
+    <div class="container-fluid mt-5 main-container">
         <div class="text-center mb-4">
             <h2>Find Your Next Read</h2>
-            <input type="text" id="currentBook" class="form-control" placeholder="Enter a book or author you enjoyed reading & BookSeeker will do the rest" autocomplete="off">
+            <div class="search-container">
+                <input type="text" id="currentBook" class="form-control search-input" placeholder="Enter a book or author" autocomplete="off">
+                <button id="searchButton" class="search-button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
             <div id="suggestions" class="dropdown-menu"></div>
-            <button id="searchButton" class="btn btn-primary mt-3">Search</button>
+            <button id="addBookButton" class="btn btn-secondary mt-3">Add Book</button>
         </div>
         <div id="recommendationContainer" class="row"></div>
     </div>
+    
+    
+    
 
-    <!-- Modal -->
-    <div class="modal fade" id="recommendationModal" tabindex="-1" aria-labelledby="recommendationModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="recommendationModalLabel">Recommendations</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body" id="modalBody">
-                    <!-- Recommendations will be inserted here -->
-                </div>
+    <div id="darkOverlay"></div>
+   <!-- Recommendation Modal -->
+<div class="modal fade" id="recommendationModal" tabindex="-1" aria-labelledby="recommendationModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="recommendationModalLabel">Recommendations</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Recommendations will be inserted here -->
+            </div>
+            <div class="modal-footer">
+                <button id="closeButton" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
+</div>
+
+
+   
+
 <!-- Book Summary Modal -->
 <div class="modal fade" id="bookSummaryModal" tabindex="-1" aria-labelledby="bookSummaryModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -104,6 +125,72 @@
             </div>
             <div class="modal-body" id="bookSummaryBody">
                 <!-- Book summary will be inserted here -->
+            </div>
+            <div class="modal-footer">
+                <button id="addToFavoritesButton" class="btn btn-secondary">Add to Favorites</button>
+                <button id="downloadButton" class="btn btn-primary">Download</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Add Book Form Modal -->
+<div class="modal fade" id="addBookModal" tabindex="-1" aria-labelledby="addBookModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addBookModalLabel">Add Book</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="addBookForm">
+                    <div class="form-group">
+                        <label for="bookTitle">Title</label>
+                        <input type="text" class="form-control" id="bookTitle" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookAuthor">Author</label>
+                        <input type="text" class="form-control" id="bookAuthor" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookGenre">Genre</label>
+                        <input type="text" class="form-control" id="bookAuthor" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookCoverImage">Cover Image</label>
+                        <input type="text" class="form-control" id="bookCoverImage" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookDownloadLink">Download Link</label>
+                        <input type="url" class="form-control" id="bookDownloadLink" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookSummary">Summary</label>
+                        <textarea class="form-control" id="bookSummary" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add Book</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Password Prompt Modal -->
+<div class="modal fade" id="passwordModal" tabindex="-1" aria-labelledby="passwordModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="passwordModalLabel">Enter Password</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <input type="password" id="passwordInput" class="form-control" placeholder="Password">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="passwordSubmit">Submit</button>
             </div>
         </div>
     </div>

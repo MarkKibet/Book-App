@@ -1,11 +1,12 @@
 {
-    "books": [
+  "books": [
     {
       "id": 1,
       "title": "Angels and Demons",
       "author": "Dan Brown",
       "genre": "Mystery Thriller",
       "coverImage": "/images/images (10).jpeg",
+      "downloadLink": "PDF/Brown, Dan - Angels and Demons.pdf",
       "summary": "Angels and Demons is a mystery thriller by Dan Brown. The story begins with the murder of physicist Leonardo Vetra at the CERN research facility in Switzerland. Vetra’s body is found branded with a mysterious symbol, and Robert Langdon, a Harvard symbologist, is called to investigate. He discovers that Vetra had been working on antimatter, a highly volatile substance, which has gone missing. Langdon learns that the Illuminati, an ancient secret society that opposes the Catholic Church, has stolen the antimatter and plans to use it to destroy Vatican City during the Papal Conclave, a major event where a new pope is to be elected. Langdon teams up with Vetra’s daughter, Vittoria, to solve the puzzle. Together, they race against time, traveling through Rome and deciphering clues hidden in famous works of art, religious symbols, and architecture. As they uncover a deadly conspiracy, they are hunted by a mysterious assassin. The pair must navigate a web of religious history, scientific discovery, and deep-rooted secrets to stop the Illuminati’s plan. The novel explores themes of science versus religion and the power of secret societies in shaping history. The final twist challenges the characters' beliefs and forces readers to question the balance between faith and reason."
     },
     {
@@ -14,6 +15,7 @@
       "author": "Adam Frank, Marcelo Gleiser, and Evan Thompson",
       "genre": "Philosophy",
       "coverImage": "/images/images (4).jpeg",
+      "downloadLink": "https://archive.org/download/dan-brown-inferno/Dan%20Brown%20-%20Inferno.pdf",
       "summary": "Blind Spot is a thought-provoking exploration of the limitations of the scientific method in fully understanding human experience. The authors argue that science, while incredibly powerful in explaining the physical world, falls short in addressing the intricacies of consciousness, emotions, and subjective experiences. By delving into philosophy, spirituality, and the humanities, the authors propose a more integrative approach to understanding the full spectrum of human existence. They challenge the notion that science can provide all the answers, advocating for a broader perspective that includes diverse ways of knowing. The book is a call to recognize the importance of subjective experience and the interconnectedness of various fields of knowledge, ultimately seeking a more comprehensive understanding of what it means to be human."
     },
     {
@@ -46,6 +48,7 @@
       "author": "Dan Brown",
       "genre": "Mystery Thriller",
       "coverImage": "images/images (13).jpeg",
+      "downloadLink": "https://archive.org/download/dan-brown-inferno/Dan%20Brown%20-%20Inferno.pdf",
       "summary": "Inferno follows Harvard symbologist Robert Langdon, who is thrust into a race against time to unravel a puzzle tied to one of the most famous works of literature in history: Dante Alighieri's Divine Comedy. Waking up in a hospital in Florence, Italy, with no memory of the past 36 hours, Langdon is soon thrust into a mysterious plot involving a bioterrorist threat. Working alongside Dr. Sienna Brooks, a brilliant doctor, Langdon discovers that a bio-weapon designed to reduce the world's population has been hidden, and its activation is imminent. The key to finding this weapon lies in the cryptic clues embedded in Dante's Inferno — the first part of The Divine Comedy, which explores the nine circles of Hell. Langdon and Sienna race across historical cities in Italy, facing increasingly dangerous adversaries, as they try to decode the verses and symbols leading to the weapon's location. As they navigate through stunning landmarks like the Florence Cathedral and the Palazzo Vecchio, Langdon and Sienna uncover secrets that challenge their understanding of the modern world and the very future of humanity. The novel climaxes in a shocking twist, revealing the true nature of the plot and forcing Langdon to make a life-altering decision."
     },
     {
@@ -60,7 +63,7 @@
       "id": 8,
       "title": "The Silent Patient",
       "author": "Alex Michaelides",
-      "genre": "Psychological Thriller",
+      "genre": "Psychological Thriller, Mystery Thriller",
       "coverImage": "/images/images (7).jpeg",
       "summary": "The Silent Patient is a gripping psychological thriller that centers on Alicia Berenson, a famous painter who seemingly has the perfect life with her husband, Gabriel. One evening, Alicia shoots Gabriel five times in the face and then stops speaking entirely. Her silence turns a domestic tragedy into a mystery that captures the public's imagination. Alicia is placed in a psychiatric facility, The Grove, where Theo Faber, a forensic psychotherapist, becomes obsessed with her case. Determined to uncover the truth behind her silence and the murder, Theo delves into Alicia’s life, unearthing her diaries and interviewing people close to her. As he pieces together Alicia’s past, Theo uncovers layers of trauma, deception, and a series of shocking revelations that lead to a stunning conclusion. The novel explores themes of obsession, love, and the devastating effects of unresolved trauma, all while keeping readers on the edge of their seats with its intricate plot and unexpected twists. Alex Michaelides' debut novel is a masterclass in suspense and psychological complexity, making it a standout in the genre."
     },
@@ -71,7 +74,6 @@
       "genre": "Mystery, Literary Fiction",
       "coverImage": "images/owens.jpeg",
       "summary": "Where the Crawdads Sing is a captivating blend of mystery and coming-of-age story set in the marshes of North Carolina. The novel follows Kya Clark, known as the “Marsh Girl,” who grows up isolated in the wild after being abandoned by her family. Despite her loneliness, Kya finds solace in the natural world around her, becoming an expert in the flora and fauna of the marsh. Her life takes a turn when she becomes entangled in the lives of two young men from town, Tate and Chase, each relationship bringing its own set of complications. When Chase is found dead, Kya becomes the prime suspect in his murder. The narrative alternates between Kya’s tumultuous childhood and the investigation into Chase’s death, weaving a tale of survival, resilience, and the redemptive power of nature. Delia Owens’ lyrical prose brings the marsh to life, creating an immersive backdrop for Kya’s journey of self-discovery and the search for belonging. The novel’s intricate plot and richly drawn characters make it a poignant and suspenseful read that explores themes of abandonment, prejudice, and the quest for independence."
-
     },
     {
       "id": 10,
@@ -79,7 +81,7 @@
       "author": "Michelle Obama",
       "genre": "Biography, Memoir",
       "coverImage": "images/becoming.jpeg",
-        "summary": "Becoming is an intimate and inspiring memoir by former First Lady Michelle Obama. The book chronicles her life from her childhood on the South Side of Chicago to her years as an executive balancing motherhood and work, and finally her time spent at the world's most famous address. Michelle Obama shares her experiences growing up in a close-knit family, her educational journey, and the challenges she faced as a black woman in predominantly white academic and professional environments. She also provides a candid look at her marriage to Barack Obama, their life together in the political spotlight, and the profound impact of their roles in the White House. With grace, humor, and honesty, Michelle Obama reflects on the defining moments that shaped her, offering readers a compelling narrative of perseverance, resilience, and the power of authenticity. Becoming is not just a memoir, but a call to action, encouraging readers to find their own voice and pursue their own journey of becoming. The book's message of hope and empowerment resonates deeply, making it a powerful and transformative read."
+      "summary": "Becoming is an intimate and inspiring memoir by former First Lady Michelle Obama. The book chronicles her life from her childhood on the South Side of Chicago to her years as an executive balancing motherhood and work, and finally her time spent at the world's most famous address. Michelle Obama shares her experiences growing up in a close-knit family, her educational journey, and the challenges she faced as a black woman in predominantly white academic and professional environments. She also provides a candid look at her marriage to Barack Obama, their life together in the political spotlight, and the profound impact of their roles in the White House. With grace, humor, and honesty, Michelle Obama reflects on the defining moments that shaped her, offering readers a compelling narrative of perseverance, resilience, and the power of authenticity. Becoming is not just a memoir, but a call to action, encouraging readers to find their own voice and pursue their own journey of becoming. The book's message of hope and empowerment resonates deeply, making it a powerful and transformative read."
     },
     {
       "id": 11,
@@ -87,7 +89,7 @@
       "author": "Plato",
       "genre": "Philosophy",
       "coverImage": "images/images (2).jpeg",
-        "summary": "The Republic is one of Plato’s most influential works, presenting his vision of a just society and the ideal state. Written as a dialogue between Socrates and various Athenians, the text explores profound questions about justice, governance, and the nature of reality. Plato introduces the concept of the philosopher-king, a ruler who possesses both wisdom and virtue, and outlines his theory of the tripartite soul, which divides the human psyche into reason, spirit, and appetite. He also famously describes the Allegory of the Cave, a metaphor for human ignorance and the philosopher’s journey to enlightenment. The Republic delves into the structure of the ideal city-state, advocating for a class system based on merit and the importance of education in achieving a just society. While Plato’s ideas have sparked debate and criticism over the centuries, his work remains a foundational text in Western philosophy, offering timeless insights into ethics, politics, and the human condition. The Republic challenges readers to reflect on the nature of justice and the role of individuals and institutions in creating a fair and equitable society."
+      "summary": "The Republic is one of Plato’s most influential works, presenting his vision of a just society and the ideal state. Written as a dialogue between Socrates and various Athenians, the text explores profound questions about justice, governance, and the nature of reality. Plato introduces the concept of the philosopher-king, a ruler who possesses both wisdom and virtue, and outlines his theory of the tripartite soul, which divides the human psyche into reason, spirit, and appetite. He also famously describes the Allegory of the Cave, a metaphor for human ignorance and the philosopher’s journey to enlightenment. The Republic delves into the structure of the ideal city-state, advocating for a class system based on merit and the importance of education in achieving a just society. While Plato’s ideas have sparked debate and criticism over the centuries, his work remains a foundational text in Western philosophy, offering timeless insights into ethics, politics, and the human condition. The Republic challenges readers to reflect on the nature of justice and the role of individuals and institutions in creating a fair and equitable society."
     },
     {
       "id": 12,
@@ -95,7 +97,7 @@
       "author": "Michael Crichton",
       "genre": "Science Fiction, Techno-Thriller",
       "coverImage": "images/images (11).jpeg",
-        "summary": "State of Fear by Michael Crichton is a fast-paced techno-thriller that blends scientific intrigue with action-packed adventure. The novel centers on a global conspiracy orchestrated by eco-terrorists aiming to create natural disasters to perpetuate a state of fear among the public and influence environmental policy. The story follows Peter Evans, a lawyer working for an environmental organization, who becomes entangled in the plot after being approached by billionaire philanthropist George Morton. As Evans, Morton, and a team of scientists and experts race against time to prevent the catastrophic events, they uncover a web of deceit and manipulation orchestrated by powerful interests. Crichton’s novel is notable for its controversial stance on climate change, questioning the motivations behind environmental activism and the role of science in public policy. Through detailed scientific data and gripping narrative, State of Fear challenges readers to think critically about the information presented to them and the impact of fear on decision-making. The novel’s blend of fact and fiction creates a thought-provoking and suspenseful read, characteristic of Crichton’s work."
+      "summary": "State of Fear by Michael Crichton is a fast-paced techno-thriller that blends scientific intrigue with action-packed adventure. The novel centers on a global conspiracy orchestrated by eco-terrorists aiming to create natural disasters to perpetuate a state of fear among the public and influence environmental policy. The story follows Peter Evans, a lawyer working for an environmental organization, who becomes entangled in the plot after being approached by billionaire philanthropist George Morton. As Evans, Morton, and a team of scientists and experts race against time to prevent the catastrophic events, they uncover a web of deceit and manipulation orchestrated by powerful interests. Crichton’s novel is notable for its controversial stance on climate change, questioning the motivations behind environmental activism and the role of science in public policy. Through detailed scientific data and gripping narrative, State of Fear challenges readers to think critically about the information presented to them and the impact of fear on decision-making. The novel’s blend of fact and fiction creates a thought-provoking and suspenseful read, characteristic of Crichton’s work."
     },
     {
       "id": 13,
@@ -103,7 +105,7 @@
       "author": "Michael Crichton",
       "genre": "Science Fiction, Time travel, Adventure, Historical Fiction",
       "coverImage": "images/download (3).jpeg",
-        "summary": "Timeline is a thrilling adventure that combines elements of science fiction, historical fiction, and time travel. The novel follows a group of historians and archaeologists who are sent back in time to medieval France to rescue their professor, who has been trapped in the past. Using a quantum technology developed by a high-tech corporation, the team navigates the dangers and complexities of the 14th century, including the political intrigue, warfare, and daily life of the time. As they search for their professor, they encounter knights, castles, and battles, while struggling to understand the mechanics of time travel and avoid altering history. Crichton’s meticulous research and attention to detail bring the medieval period to life, creating a rich and immersive backdrop for the story. Timeline explores themes of technology, history, and the ethical implications of tampering with the past. The novel’s fast-paced plot, well-drawn characters, and blend of historical and scientific elements make it a captivating read that transports readers across centuries."
+      "summary": "Timeline is a thrilling adventure that combines elements of science fiction, historical fiction, and time travel. The novel follows a group of historians and archaeologists who are sent back in time to medieval France to rescue their professor, who has been trapped in the past. Using a quantum technology developed by a high-tech corporation, the team navigates the dangers and complexities of the 14th century, including the political intrigue, warfare, and daily life of the time. As they search for their professor, they encounter knights, castles, and battles, while struggling to understand the mechanics of time travel and avoid altering history. Crichton’s meticulous research and attention to detail bring the medieval period to life, creating a rich and immersive backdrop for the story. Timeline explores themes of technology, history, and the ethical implications of tampering with the past. The novel’s fast-paced plot, well-drawn characters, and blend of historical and scientific elements make it a captivating read that transports readers across centuries."
     },
     {
       "id": 14,
@@ -111,7 +113,7 @@
       "author": "Michael Crichton",
       "genre": "Science Fiction, Adventure, Historical Fiction",
       "coverImage": "images/download.png",
-        "summary": "Jurassic Park is a thrilling science fiction novel that explores the intersection of advanced genetics, corporate greed, and the primal power of nature. The story begins with billionaire entrepreneur John Hammond, who has created an island theme park populated by genetically engineered dinosaurs. Using DNA extracted from prehistoric mosquitoes preserved in amber, Hammond’s scientists at InGen, a genetic engineering company, have brought extinct species back to life. As the park nears completion, Hammond invites a group of experts—paleontologist Dr. Alan Grant, paleobotanist Dr. Ellie Sattler, chaos theorist Dr. Ian Malcolm, and his own grandchildren—to tour the island and provide their endorsement. However, things quickly go awry when the park’s computer systems fail, allowing the dinosaurs to roam free. The once awe-inspiring creatures turn deadly, and the visitors must fight for survival against the rampaging predators. The novel delves into themes of human hubris, ethical boundaries in science, and the unpredictable consequences of tampering with nature. Michael Crichton masterfully combines scientific detail with edge-of-your-seat suspense, creating a cautionary tale that questions the limits of human innovation and the power of the natural world."
+      "summary": "Jurassic Park is a thrilling science fiction novel that explores the intersection of advanced genetics, corporate greed, and the primal power of nature. The story begins with billionaire entrepreneur John Hammond, who has created an island theme park populated by genetically engineered dinosaurs. Using DNA extracted from prehistoric mosquitoes preserved in amber, Hammond’s scientists at InGen, a genetic engineering company, have brought extinct species back to life. As the park nears completion, Hammond invites a group of experts—paleontologist Dr. Alan Grant, paleobotanist Dr. Ellie Sattler, chaos theorist Dr. Ian Malcolm, and his own grandchildren—to tour the island and provide their endorsement. However, things quickly go awry when the park’s computer systems fail, allowing the dinosaurs to roam free. The once awe-inspiring creatures turn deadly, and the visitors must fight for survival against the rampaging predators. The novel delves into themes of human hubris, ethical boundaries in science, and the unpredictable consequences of tampering with nature. Michael Crichton masterfully combines scientific detail with edge-of-your-seat suspense, creating a cautionary tale that questions the limits of human innovation and the power of the natural world."
     },
     {
       "id": 15,
@@ -119,6 +121,7 @@
       "author": "Dan Brown",
       "genre": "Mystery Thriller, Historical Fiction, Conspiracy Fiction",
       "coverImage": "images/symbol.jpeg",
+      "downloadLink": "https://readerslibrary.org/wp-content/uploads/The-Lost-Symbol-1.pdf",
       "summary": "The Lost Symbol is the third book in Dan Brown's Robert Langdon series. The story takes place in Washington, D.C., where Langdon is called to give a lecture at the U.S. Capitol, only to discover that his mentor, Peter Solomon, has been kidnapped. In his place, a gruesome clue is left behind: Solomon’s severed hand, positioned in a Masonic gesture. Langdon teams up with Katherine Solomon, Peter’s sister, to solve a trail of cryptic symbols, uncovering secrets tied to Freemasonry and the mysterious Lost Word. As they race through the city, they discover that this ancient secret holds immense power and could change the world forever. But a dangerous villain, Mal’akh, is also after the Lost Word, and his motives are deadly.The novel delves into the world of Freemasonry, secret societies, and the search for hidden knowledge, blending historical references with modern conspiracy. *The Lost Symbol* explores the balance between science, religion, and human consciousness, while Langdon and Katherine must decode ancient symbols to stop a global catastrophe. It’s a fast-paced thriller filled with puzzles, intrigue, and hidden truths."
     },
     {
@@ -130,13 +133,168 @@
       "summary": "In Origin Harvard professor Robert Langdon is once again thrust into a high-stakes mystery, this time set in the modern art world and the cutting-edge world of artificial intelligence. The novel begins with Langdon being invited to the Guggenheim Museum in Bilbao, Spain, by his friend and billionaire futurist, Edmond Kirsch. Kirsch is on the verge of revealing two groundbreaking scientific discoveries that will answer humanity’s biggest questions: *Where do we come from?* and *Where are we going?* Before he can share his findings with the world, Kirsch is murdered, leaving Langdon and museum director Ambra Vidal to uncover the truth behind his discoveries. As they race through Spain, the duo is caught in a deadly game of cat-and-mouse with shadowy figures, while trying to decode the clues left behind by Kirsch.The novel delves into the intersection of science, religion, and technology, exploring themes of artificial intelligence, the search for truth, and the potential for a future reshaped by technological advances. At the heart of the story is the question of whether humanity's future will be determined by science and technology or by age-old religious beliefs. As Langdon and Vidal follow a trail of encrypted messages, they uncover a revelation that could radically change the course of history."
     },
     {
+      "id": 18,
+      "title": "Verity",
+      "author": "Collen Hoover",
+      "genre": "Mystery Thriller",
+      "coverImage": "images/verity.jpeg",
+      "downloadLink": "https://pdfdrive.com.co/wp-content/pdfh/Verity-By-Colleen-Hoover.pdf",
+      "summary": "Verity is a psychological thriller novel by Colleen Hoover, blending elements of mystery, suspense, and romance. The story follows Lowen Ashleigh, a struggling writer who is hired to complete the remaining books in a successful series by the best-selling author Verity Crawford, who is incapacitated after a tragic accident. When Lowen moves into the Crawford home to sort through Verity's office, she discovers an unfinished autobiography that reveals dark and disturbing secrets about Verity, including details about her marriage to Jeremy and the fate of their children. As Lowen delves deeper into Verity's manuscript, she becomes increasingly entangled in the twisted truth, leading her to question the reality of Verity's accident and fear for her own safety.With an intense and gripping plot, Verity keeps readers on the edge of their seats, blurring the lines between truth and deception, love and obsession. The novel explores themes of trust, manipulation, and the complexities of the human mind, culminating in a shocking and thought-provoking conclusion."
+    },
+    {
+      "id": 19,
+      "title": "Here one Moment",
+      "author": "Liane Moriaty",
+      "genre": "Mystery Thriller",
+      "coverImage": "images/here one moment.jpeg",
+      "downloadLink": "https://files.catbox.moe/rvjon0.pdf",
+      "summary": "Here One Moment by Liane Moriarty is a gripping and thought-provoking novel that explores themes of life, death, and destiny. The story revolves around a group of passengers on a flight from Hobart to Sydney. Among them is a mysterious woman known as the Death Lady, who possesses the uncanny ability to predict the exact times of death for each passenger. This revelation turns their lives upside down as they are confronted with the knowledge of their mortality. Told from multiple perspectives, including that of the Death Lady, the narrative delves into the personal lives and secrets of the passengers. Each character grapples with their fate in different ways, leading to a series of emotional and dramatic events. As they navigate the complexities of their newfound knowledge, the passengers are forced to confront their past decisions, relationships, and the meaning of their existence. Here One Moment is a suspenseful and poignant tale that blends humor with philosophical insights, challenging readers to ponder the unpredictability of life and the choices we make when faced with the certainty of death."
+    },
+    {
+      "id": 20,
+      "title": "Eight Perfect Murders: A Novel",
+      "author": "Peter Swanson",
+      "genre": "Mystery Thriller",
+      "downloadLink": "https://www.booksfree.org/wp-content/uploads/2022/03/Eight-Perfect-Murders-Peter-Swanson_compressed.pdf",
+      "coverImage": "images/eight perfect.jpeg",
+      "summary": "Eight Perfect Murders by Peter Swanson is a psychological thriller that follows Malcolm Kershaw, a quiet bookseller who runs a small mystery-focused bookstore in Boston. Years earlier, Malcolm wrote a blog post titled Eight Perfect Murders, where he listed what he considered to be the most ingenious and unsolvable murders in classic crime literature, including works by Agatha Christie, Patricia Highsmith, and others. Years later, an FBI agent approaches Malcolm, claiming that someone is using his list as inspiration to commit real-life murders. As Malcolm gets drawn into the investigation, he begins to unravel disturbing connections to his own life. The line between hunter and hunted begins to blur as secrets from his past threaten to resurface. The novel explores obsession, betrayal, and the classic puzzle-box mystery style while offering numerous twists and nods to iconic crime fiction. Swanson delivers an intricate and suspenseful story that keeps readers guessing until the very end."
+    },
+    {
       "id": 17,
       "title": "The Da Vinci Code",
       "author": "Dan Brown",
       "genre": "Mystery Thriller",
       "coverImage": "images/davinci.jpeg",
       "summary": "The Da Vinci Code is a fast-paced mystery thriller that explores the intersection of art, history, and religion. The novel follows Robert Langdon, a Harvard symbologist, who is called to the Louvre Museum in Paris after the curator, Jacques Saunière, is found murdered. Before his death, Saunière left behind a series of cryptic clues that Langdon and cryptologist Sophie Neveu must decipher to uncover a secret that has been hidden for centuries. As they race to unravel the mystery, Langdon and Sophie discover that the murder is connected to an ancient society, Opus Dei, and a powerful secret about the Holy Grail. They journey through Europe, decoding religious symbols, ancient texts, and famous artworks—most notably, Leonardo da Vinci’s The Last Supper—as they attempt to prevent a devastating revelation from being uncovered. Throughout their pursuit, Langdon and Sophie must confront a centuries-old conspiracy and a dangerous adversary who will stop at nothing to keep the truth hidden. The story raises questions about the authenticity of historical and religious beliefs, blending real historical events with fictional elements to create an explosive narrative that keeps readers on the edge of their seats. The novel is filled with suspense, unexpected twists, and thought-provoking questions about religion, history, and the nature of truth"
+    },
+    {
+      "id": 17,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Mystery Thriller",
+      "coverImage": "images/davinci.jpeg",
+      "summary": "The Da Vinci Code is a fast-paced mystery thriller that explores the intersection of art, history, and religion. The novel follows Robert Langdon, a Harvard symbologist, who is called to the Louvre Museum in Paris after the curator, Jacques Saunière, is found murdered. Before his death, Saunière left behind a series of cryptic clues that Langdon and cryptologist Sophie Neveu must decipher to uncover a secret that has been hidden for centuries. As they race to unravel the mystery, Langdon and Sophie discover that the murder is connected to an ancient society, Opus Dei, and a powerful secret about the Holy Grail. They journey through Europe, decoding religious symbols, ancient texts, and famous artworks—most notably, Leonardo da Vinci’s The Last Supper—as they attempt to prevent a devastating revelation from being uncovered. Throughout their pursuit, Langdon and Sophie must confront a centuries-old conspiracy and a dangerous adversary who will stop at nothing to keep the truth hidden. The story raises questions about the authenticity of historical and religious beliefs, blending real historical events with fictional elements to create an explosive narrative that keeps readers on the edge of their seats. The novel is filled with suspense, unexpected twists, and thought-provoking questions about religion, history, and the nature of truth"
+    },
+    {
+      "id": 17,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Mystery Thriller",
+      "coverImage": "images/davinci.jpeg",
+      "summary": "The Da Vinci Code is a fast-paced mystery thriller that explores the intersection of art, history, and religion. The novel follows Robert Langdon, a Harvard symbologist, who is called to the Louvre Museum in Paris after the curator, Jacques Saunière, is found murdered. Before his death, Saunière left behind a series of cryptic clues that Langdon and cryptologist Sophie Neveu must decipher to uncover a secret that has been hidden for centuries. As they race to unravel the mystery, Langdon and Sophie discover that the murder is connected to an ancient society, Opus Dei, and a powerful secret about the Holy Grail. They journey through Europe, decoding religious symbols, ancient texts, and famous artworks—most notably, Leonardo da Vinci’s The Last Supper—as they attempt to prevent a devastating revelation from being uncovered. Throughout their pursuit, Langdon and Sophie must confront a centuries-old conspiracy and a dangerous adversary who will stop at nothing to keep the truth hidden. The story raises questions about the authenticity of historical and religious beliefs, blending real historical events with fictional elements to create an explosive narrative that keeps readers on the edge of their seats. The novel is filled with suspense, unexpected twists, and thought-provoking questions about religion, history, and the nature of truth"
+    },
+    {
+      "id": 17,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Mystery Thriller",
+      "coverImage": "images/davinci.jpeg",
+      "summary": "The Da Vinci Code is a fast-paced mystery thriller that explores the intersection of art, history, and religion. The novel follows Robert Langdon, a Harvard symbologist, who is called to the Louvre Museum in Paris after the curator, Jacques Saunière, is found murdered. Before his death, Saunière left behind a series of cryptic clues that Langdon and cryptologist Sophie Neveu must decipher to uncover a secret that has been hidden for centuries. As they race to unravel the mystery, Langdon and Sophie discover that the murder is connected to an ancient society, Opus Dei, and a powerful secret about the Holy Grail. They journey through Europe, decoding religious symbols, ancient texts, and famous artworks—most notably, Leonardo da Vinci’s The Last Supper—as they attempt to prevent a devastating revelation from being uncovered. Throughout their pursuit, Langdon and Sophie must confront a centuries-old conspiracy and a dangerous adversary who will stop at nothing to keep the truth hidden. The story raises questions about the authenticity of historical and religious beliefs, blending real historical events with fictional elements to create an explosive narrative that keeps readers on the edge of their seats. The novel is filled with suspense, unexpected twists, and thought-provoking questions about religion, history, and the nature of truth"
+    },
+    {
+      "id": 17,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Mystery Thriller",
+      "coverImage": "images/davinci.jpeg",
+      "summary": "The Da Vinci Code is a fast-paced mystery thriller that explores the intersection of art, history, and religion. The novel follows Robert Langdon, a Harvard symbologist, who is called to the Louvre Museum in Paris after the curator, Jacques Saunière, is found murdered. Before his death, Saunière left behind a series of cryptic clues that Langdon and cryptologist Sophie Neveu must decipher to uncover a secret that has been hidden for centuries. As they race to unravel the mystery, Langdon and Sophie discover that the murder is connected to an ancient society, Opus Dei, and a powerful secret about the Holy Grail. They journey through Europe, decoding religious symbols, ancient texts, and famous artworks—most notably, Leonardo da Vinci’s The Last Supper—as they attempt to prevent a devastating revelation from being uncovered. Throughout their pursuit, Langdon and Sophie must confront a centuries-old conspiracy and a dangerous adversary who will stop at nothing to keep the truth hidden. The story raises questions about the authenticity of historical and religious beliefs, blending real historical events with fictional elements to create an explosive narrative that keeps readers on the edge of their seats. The novel is filled with suspense, unexpected twists, and thought-provoking questions about religion, history, and the nature of truth"
+    },
+    {
+      "id": 17,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Mystery Thriller",
+      "coverImage": "images/davinci.jpeg",
+      "summary": "The Da Vinci Code is a fast-paced mystery thriller that explores the intersection of art, history, and religion. The novel follows Robert Langdon, a Harvard symbologist, who is called to the Louvre Museum in Paris after the curator, Jacques Saunière, is found murdered. Before his death, Saunière left behind a series of cryptic clues that Langdon and cryptologist Sophie Neveu must decipher to uncover a secret that has been hidden for centuries. As they race to unravel the mystery, Langdon and Sophie discover that the murder is connected to an ancient society, Opus Dei, and a powerful secret about the Holy Grail. They journey through Europe, decoding religious symbols, ancient texts, and famous artworks—most notably, Leonardo da Vinci’s The Last Supper—as they attempt to prevent a devastating revelation from being uncovered. Throughout their pursuit, Langdon and Sophie must confront a centuries-old conspiracy and a dangerous adversary who will stop at nothing to keep the truth hidden. The story raises questions about the authenticity of historical and religious beliefs, blending real historical events with fictional elements to create an explosive narrative that keeps readers on the edge of their seats. The novel is filled with suspense, unexpected twists, and thought-provoking questions about religion, history, and the nature of truth"
+    },
+    {
+      "id": 17,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Mystery Thriller",
+      "coverImage": "images/davinci.jpeg",
+      "summary": "The Da Vinci Code is a fast-paced mystery thriller that explores the intersection of art, history, and religion. The novel follows Robert Langdon, a Harvard symbologist, who is called to the Louvre Museum in Paris after the curator, Jacques Saunière, is found murdered. Before his death, Saunière left behind a series of cryptic clues that Langdon and cryptologist Sophie Neveu must decipher to uncover a secret that has been hidden for centuries. As they race to unravel the mystery, Langdon and Sophie discover that the murder is connected to an ancient society, Opus Dei, and a powerful secret about the Holy Grail. They journey through Europe, decoding religious symbols, ancient texts, and famous artworks—most notably, Leonardo da Vinci’s The Last Supper—as they attempt to prevent a devastating revelation from being uncovered. Throughout their pursuit, Langdon and Sophie must confront a centuries-old conspiracy and a dangerous adversary who will stop at nothing to keep the truth hidden. The story raises questions about the authenticity of historical and religious beliefs, blending real historical events with fictional elements to create an explosive narrative that keeps readers on the edge of their seats. The novel is filled with suspense, unexpected twists, and thought-provoking questions about religion, history, and the nature of truth"
+    },
+    {
+      "id": 17,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Mystery Thriller",
+      "coverImage": "images/davinci.jpeg",
+      "summary": "The Da Vinci Code is a fast-paced mystery thriller that explores the intersection of art, history, and religion. The novel follows Robert Langdon, a Harvard symbologist, who is called to the Louvre Museum in Paris after the curator, Jacques Saunière, is found murdered. Before his death, Saunière left behind a series of cryptic clues that Langdon and cryptologist Sophie Neveu must decipher to uncover a secret that has been hidden for centuries. As they race to unravel the mystery, Langdon and Sophie discover that the murder is connected to an ancient society, Opus Dei, and a powerful secret about the Holy Grail. They journey through Europe, decoding religious symbols, ancient texts, and famous artworks—most notably, Leonardo da Vinci’s The Last Supper—as they attempt to prevent a devastating revelation from being uncovered. Throughout their pursuit, Langdon and Sophie must confront a centuries-old conspiracy and a dangerous adversary who will stop at nothing to keep the truth hidden. The story raises questions about the authenticity of historical and religious beliefs, blending real historical events with fictional elements to create an explosive narrative that keeps readers on the edge of their seats. The novel is filled with suspense, unexpected twists, and thought-provoking questions about religion, history, and the nature of truth"
+    },
+    {
+      "id": 17,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Mystery Thriller",
+      "coverImage": "images/davinci.jpeg",
+      "summary": "The Da Vinci Code is a fast-paced mystery thriller that explores the intersection of art, history, and religion. The novel follows Robert Langdon, a Harvard symbologist, who is called to the Louvre Museum in Paris after the curator, Jacques Saunière, is found murdered. Before his death, Saunière left behind a series of cryptic clues that Langdon and cryptologist Sophie Neveu must decipher to uncover a secret that has been hidden for centuries. As they race to unravel the mystery, Langdon and Sophie discover that the murder is connected to an ancient society, Opus Dei, and a powerful secret about the Holy Grail. They journey through Europe, decoding religious symbols, ancient texts, and famous artworks—most notably, Leonardo da Vinci’s The Last Supper—as they attempt to prevent a devastating revelation from being uncovered. Throughout their pursuit, Langdon and Sophie must confront a centuries-old conspiracy and a dangerous adversary who will stop at nothing to keep the truth hidden. The story raises questions about the authenticity of historical and religious beliefs, blending real historical events with fictional elements to create an explosive narrative that keeps readers on the edge of their seats. The novel is filled with suspense, unexpected twists, and thought-provoking questions about religion, history, and the nature of truth"
+    },
+    {
+      "id": 17,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Mystery Thriller",
+      "coverImage": "images/davinci.jpeg",
+      "summary": "The Da Vinci Code is a fast-paced mystery thriller that explores the intersection of art, history, and religion. The novel follows Robert Langdon, a Harvard symbologist, who is called to the Louvre Museum in Paris after the curator, Jacques Saunière, is found murdered. Before his death, Saunière left behind a series of cryptic clues that Langdon and cryptologist Sophie Neveu must decipher to uncover a secret that has been hidden for centuries. As they race to unravel the mystery, Langdon and Sophie discover that the murder is connected to an ancient society, Opus Dei, and a powerful secret about the Holy Grail. They journey through Europe, decoding religious symbols, ancient texts, and famous artworks—most notably, Leonardo da Vinci’s The Last Supper—as they attempt to prevent a devastating revelation from being uncovered. Throughout their pursuit, Langdon and Sophie must confront a centuries-old conspiracy and a dangerous adversary who will stop at nothing to keep the truth hidden. The story raises questions about the authenticity of historical and religious beliefs, blending real historical events with fictional elements to create an explosive narrative that keeps readers on the edge of their seats. The novel is filled with suspense, unexpected twists, and thought-provoking questions about religion, history, and the nature of truth"
+    },
+    {
+      "id": 17,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Mystery Thriller",
+      "coverImage": "images/davinci.jpeg",
+      "summary": "The Da Vinci Code is a fast-paced mystery thriller that explores the intersection of art, history, and religion. The novel follows Robert Langdon, a Harvard symbologist, who is called to the Louvre Museum in Paris after the curator, Jacques Saunière, is found murdered. Before his death, Saunière left behind a series of cryptic clues that Langdon and cryptologist Sophie Neveu must decipher to uncover a secret that has been hidden for centuries. As they race to unravel the mystery, Langdon and Sophie discover that the murder is connected to an ancient society, Opus Dei, and a powerful secret about the Holy Grail. They journey through Europe, decoding religious symbols, ancient texts, and famous artworks—most notably, Leonardo da Vinci’s The Last Supper—as they attempt to prevent a devastating revelation from being uncovered. Throughout their pursuit, Langdon and Sophie must confront a centuries-old conspiracy and a dangerous adversary who will stop at nothing to keep the truth hidden. The story raises questions about the authenticity of historical and religious beliefs, blending real historical events with fictional elements to create an explosive narrative that keeps readers on the edge of their seats. The novel is filled with suspense, unexpected twists, and thought-provoking questions about religion, history, and the nature of truth"
+    },
+    {
+      "id": 17,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Mystery Thriller",
+      "coverImage": "images/davinci.jpeg",
+      "summary": "The Da Vinci Code is a fast-paced mystery thriller that explores the intersection of art, history, and religion. The novel follows Robert Langdon, a Harvard symbologist, who is called to the Louvre Museum in Paris after the curator, Jacques Saunière, is found murdered. Before his death, Saunière left behind a series of cryptic clues that Langdon and cryptologist Sophie Neveu must decipher to uncover a secret that has been hidden for centuries. As they race to unravel the mystery, Langdon and Sophie discover that the murder is connected to an ancient society, Opus Dei, and a powerful secret about the Holy Grail. They journey through Europe, decoding religious symbols, ancient texts, and famous artworks—most notably, Leonardo da Vinci’s The Last Supper—as they attempt to prevent a devastating revelation from being uncovered. Throughout their pursuit, Langdon and Sophie must confront a centuries-old conspiracy and a dangerous adversary who will stop at nothing to keep the truth hidden. The story raises questions about the authenticity of historical and religious beliefs, blending real historical events with fictional elements to create an explosive narrative that keeps readers on the edge of their seats. The novel is filled with suspense, unexpected twists, and thought-provoking questions about religion, history, and the nature of truth"
+    },
+    {
+      "id": 17,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Mystery Thriller",
+      "coverImage": "images/davinci.jpeg",
+      "summary": "The Da Vinci Code is a fast-paced mystery thriller that explores the intersection of art, history, and religion. The novel follows Robert Langdon, a Harvard symbologist, who is called to the Louvre Museum in Paris after the curator, Jacques Saunière, is found murdered. Before his death, Saunière left behind a series of cryptic clues that Langdon and cryptologist Sophie Neveu must decipher to uncover a secret that has been hidden for centuries. As they race to unravel the mystery, Langdon and Sophie discover that the murder is connected to an ancient society, Opus Dei, and a powerful secret about the Holy Grail. They journey through Europe, decoding religious symbols, ancient texts, and famous artworks—most notably, Leonardo da Vinci’s The Last Supper—as they attempt to prevent a devastating revelation from being uncovered. Throughout their pursuit, Langdon and Sophie must confront a centuries-old conspiracy and a dangerous adversary who will stop at nothing to keep the truth hidden. The story raises questions about the authenticity of historical and religious beliefs, blending real historical events with fictional elements to create an explosive narrative that keeps readers on the edge of their seats. The novel is filled with suspense, unexpected twists, and thought-provoking questions about religion, history, and the nature of truth"
+    },
+    {
+      "id": 17,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Mystery Thriller",
+      "coverImage": "images/davinci.jpeg",
+      "summary": "The Da Vinci Code is a fast-paced mystery thriller that explores the intersection of art, history, and religion. The novel follows Robert Langdon, a Harvard symbologist, who is called to the Louvre Museum in Paris after the curator, Jacques Saunière, is found murdered. Before his death, Saunière left behind a series of cryptic clues that Langdon and cryptologist Sophie Neveu must decipher to uncover a secret that has been hidden for centuries. As they race to unravel the mystery, Langdon and Sophie discover that the murder is connected to an ancient society, Opus Dei, and a powerful secret about the Holy Grail. They journey through Europe, decoding religious symbols, ancient texts, and famous artworks—most notably, Leonardo da Vinci’s The Last Supper—as they attempt to prevent a devastating revelation from being uncovered. Throughout their pursuit, Langdon and Sophie must confront a centuries-old conspiracy and a dangerous adversary who will stop at nothing to keep the truth hidden. The story raises questions about the authenticity of historical and religious beliefs, blending real historical events with fictional elements to create an explosive narrative that keeps readers on the edge of their seats. The novel is filled with suspense, unexpected twists, and thought-provoking questions about religion, history, and the nature of truth"
+    },
+    {
+      "id": 17,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Mystery Thriller",
+      "coverImage": "images/davinci.jpeg",
+      "summary": "The Da Vinci Code is a fast-paced mystery thriller that explores the intersection of art, history, and religion. The novel follows Robert Langdon, a Harvard symbologist, who is called to the Louvre Museum in Paris after the curator, Jacques Saunière, is found murdered. Before his death, Saunière left behind a series of cryptic clues that Langdon and cryptologist Sophie Neveu must decipher to uncover a secret that has been hidden for centuries. As they race to unravel the mystery, Langdon and Sophie discover that the murder is connected to an ancient society, Opus Dei, and a powerful secret about the Holy Grail. They journey through Europe, decoding religious symbols, ancient texts, and famous artworks—most notably, Leonardo da Vinci’s The Last Supper—as they attempt to prevent a devastating revelation from being uncovered. Throughout their pursuit, Langdon and Sophie must confront a centuries-old conspiracy and a dangerous adversary who will stop at nothing to keep the truth hidden. The story raises questions about the authenticity of historical and religious beliefs, blending real historical events with fictional elements to create an explosive narrative that keeps readers on the edge of their seats. The novel is filled with suspense, unexpected twists, and thought-provoking questions about religion, history, and the nature of truth"
+    },
+    {
+      "id": 17,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Mystery Thriller",
+      "coverImage": "images/davinci.jpeg",
+      "summary": "The Da Vinci Code is a fast-paced mystery thriller that explores the intersection of art, history, and religion. The novel follows Robert Langdon, a Harvard symbologist, who is called to the Louvre Museum in Paris after the curator, Jacques Saunière, is found murdered. Before his death, Saunière left behind a series of cryptic clues that Langdon and cryptologist Sophie Neveu must decipher to uncover a secret that has been hidden for centuries. As they race to unravel the mystery, Langdon and Sophie discover that the murder is connected to an ancient society, Opus Dei, and a powerful secret about the Holy Grail. They journey through Europe, decoding religious symbols, ancient texts, and famous artworks—most notably, Leonardo da Vinci’s The Last Supper—as they attempt to prevent a devastating revelation from being uncovered. Throughout their pursuit, Langdon and Sophie must confront a centuries-old conspiracy and a dangerous adversary who will stop at nothing to keep the truth hidden. The story raises questions about the authenticity of historical and religious beliefs, blending real historical events with fictional elements to create an explosive narrative that keeps readers on the edge of their seats. The novel is filled with suspense, unexpected twists, and thought-provoking questions about religion, history, and the nature of truth"
+    },
+    {
+      "id": "b3db",
+      "title": "Things Fall Apart",
+      "author": "Chinua Achebe",
+      "genre": "Historical Fiction",
+      "coverImage": "images/things fall apart.jpeg",
+      "downloadLink": "https://marul.ffst.hr/~bwillems/fymob/things.pdf",
+      "summary": "Things Fall Apart by Chinua Achebe tells the tragic story of Okonkwo, a respected leader in the Igbo village of Umuofia in Nigeria. Set in the late 19th century, the novel follows Okonkwo's rise to prominence and his subsequent downfall after he is exiled for accidentally killing a clansman. During his exile, European missionaries and colonial officials arrive, bringing significant cultural and religious changes that deeply divide the community. Upon his return, Okonkwo struggles to fight against the erosion of traditional Igbo society, leading to his ultimate demise. The novel explores themes of tradition vs. change, masculinity, and the devastating impact of colonialism. It remains a powerful and poignant reflection on the effects of cultural disruption and loss."
     }
-]
+  ]
 }
-  
