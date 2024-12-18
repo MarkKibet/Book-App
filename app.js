@@ -2,16 +2,16 @@ document.addEventListener("DOMContentLoaded", () => {
     let books = [];
 
     // Fetch initial data from the JSON file
-    fetch('http://localhost:3000/books') 
-        .then(response => response.json()) // Convert the response to JSON
-        .then(data => {
-            books = data;
-            // Render each book using the renderBook function
-            books.forEach(book => renderBook(book));
-        })
-        .catch(error => {
-            console.error('Error fetching the books:', error);
-        });
+    fetch('http://localhost:3000/books')
+    .then(response => response.json()) // Convert the response to JSON
+    .then(data => {
+        books = data;
+        const fewBooks = books.slice(0, 40); // Adjust the number to display as needed
+        fewBooks.forEach(book => renderBook(book));
+    })
+    .catch(error => {
+        console.error('Error fetching the books:', error);
+    });
 
     // Function to handle the input search event
     document.getElementById('currentBook').addEventListener('input', function() {
@@ -60,7 +60,41 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
     
+    // Function to render books
+function renderBook(book) {
+    const recommendationContainer = document.getElementById('recommendationContainer');
+    const bookCard = document.createElement('div');
+    bookCard.classList.add('book-item', 'col-md-3');
+    bookCard.innerHTML = `
+        <img src="${book.coverImage}" alt="${book.title}" class="img-fluid book-image" data-book-id="${book.id}">
+        <h5>${book.title}</h5>
+        <p>Author: ${book.author}</p>
+        <p>Genre: ${book.genre}</p>
+    `;
     
+    // Add event listener to the cover image for opening the summary modal
+    bookCard.querySelector('.book-image').addEventListener('click', function () {
+        const bookId = this.getAttribute('data-book-id');
+        const selectedBook = books.find(b => b.id == bookId);
+
+        if (selectedBook) {
+            // Populate and show the modal with the book's details
+            const bookSummaryBody = document.getElementById('bookSummaryBody');
+            bookSummaryBody.innerHTML = `
+                <img src="${selectedBook.coverImage}" alt="${selectedBook.title}" class="img-fluid book-image">
+                <h2>${selectedBook.title}</h2>
+                <p><strong>Author:</strong> ${selectedBook.author}</p>
+                <p><strong>Genre:</strong> ${selectedBook.genre}</p>
+                <p><strong>Summary:</strong> ${selectedBook.summary}</p>
+            `;
+
+            $('#bookSummaryModal').modal('show');
+        }
+    });
+
+    recommendationContainer.appendChild(bookCard);
+}
+
    // Event listener for selecting a suggestion
 document.getElementById('suggestions').addEventListener('click', function(event) {
     if (event.target.closest('.dropdown-item')) {
@@ -215,11 +249,6 @@ document.getElementById('modalBody').addEventListener('click', function(event) {
         $('#bookSummaryModal').modal('show');
     }
 });
-
-
-
-
-    
     // Close the suggestions dropdown if clicking outside
     document.addEventListener('click', function(event) {
         if (!event.target.closest('#currentBook') && !event.target.closest('#suggestions')) {
@@ -235,7 +264,6 @@ document.getElementById('modalBody').addEventListener('click', function(event) {
         // Open the desired modal
         $(modalId).modal('show');
     }
-    
     // Ensure modals behave as expected
     $('#bookSummaryModal').on('hidden.bs.modal', function() {
         document.body.style.overflow = ''; // Restore scrolling after modal close
